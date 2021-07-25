@@ -2,7 +2,100 @@
 font-family: 'Poppins', sans-serif;
 font-family: 'Volkhov', serif; */
 
-h1{
-    color: darkmagenta;
+body{
+    margin: 0;
+    background-color: #fdf2f2;
+}
+/* Header Part Design */
+header{
+    background-color: white;
+    /* background-color: #fdf2f2; */
+    box-shadow: 3px 3px 5px #dad6d6;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.logo img{
+    width: 55px;
+    margin:0 16px;
+}
+.nav-item ul{
+    display: flex;
+}
+.nav-item ul li{
+    list-style: none;
+    padding: 5px 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    margin: 0 3px;
+}
+.nav-item ul li:hover{
+    background-color: crimson;
+    color: white;
+}
+.btn-login{
+    background-color: darkblue;
+    color: white;
+}
+
+/* Banner Section Design */
+.banner-section{
+    margin: 25px 0;
+}
+.banner-content{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px 25px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 8px #d1d0d0;
+}
+.banner-info h1{
+    font-size: 3.5em;
     font-family: 'Volkhov', serif;
+    margin-bottom: 0;
+    color: darkblue;
+}
+.banner-info p{
+    font-size: 1em;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif
+}
+.banner-photo img{
+    width: 480px;
+}
+.fas{
+    margin: 0 5px;
+}
+.btn-signup{
+    border:3px solid darkblue;
+    color: black;
+    background-color: white;
+    padding: 8px 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: 'Volkhov', serif;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease-in-out;
+}
+.btn-signup:hover{
+    color: white;
+    background-color: crimson;
 }
