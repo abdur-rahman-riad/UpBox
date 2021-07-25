@@ -383,10 +383,10 @@ footer p{
         width: 80%;
     }
     .work-detils h2{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     .work-detils p{
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
     /* Social Post */
@@ -402,7 +402,7 @@ footer p{
         row-gap: 25px;
     }
     .post h3{
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     /* Footer List */
@@ -426,6 +426,10 @@ footer p{
     .footer-all-links{
         grid-template-columns: repeat(2, 1fr);
         column-gap: 5px;
+    }
+    .link-box ul li{
+        list-style: none;
+        font-size: 0.8em;
     }
     .terms-condition{
         justify-content: center;
