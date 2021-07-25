@@ -300,3 +300,139 @@ footer p{
     color: gray;
     font-family: 'Poppins', sans-serif;
 }
+
+/* Responsive For Mobile */
+@media only screen and (max-width: 767px) {
+    .container{
+        width: 96%;
+    }
+    /* Navbar */
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo img{
+        width: 45px;
+        margin:0 12px;
+    }
+    .nav-item ul{
+        display: none;
+    }
+
+    /* Banner */
+    .banner-section{
+        margin: 18px 0;
+    }
+    .banner-content{
+        flex-direction: column;
+        padding:18px;
+    }
+    .banner-info h1{
+        font-size: 2.1em;
+    }
+    .banner-info p{
+        font-size: 0.8em;
+    }
+    .banner-photo img{
+        width: 100%;
+    }
+    .btn-signup{
+        border:2px solid darkblue;
+        font-size: 0.8em;
+    }
+
+    /* Pick Plan */
+    .plan-section{
+        margin: 25px 0;
+    }
+    .pick-plan-content{
+        padding: 18px;
+    }
+    .pick-plan-content p{
+        font-size: 0.8em;
+    }
+    .pick-plan h1{
+        font-size: 1.8em;
+    }
+    .plan-box{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 25px;
+    }
+    .monthly h3, .yearly h3{
+        font-size: 18px;
+    }
+    .monthly h2, .yearly h2{
+        font-size: 28px;
+    }
+    .btn-box{
+        font-size: 0.7em;
+    } 
+
+    /* Works */
+    .work-content{
+        padding: 18px;
+    }
+    .first-work{
+        background-color: white;
+        margin:30px 0;
+        padding: 18px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .work-photo img{
+        width: 80%;
+    }
+    .work-detils h2{
+        font-size: 1.5em;
+    }
+    .work-detils p{
+        font-size: 0.8em;
+    }
+
+    /* Social Post */
+    .social-section{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .social-post-content{
+        padding:18px;
+    }
+    .social-post{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 25px;
+    }
+    .post h3{
+        font-size: 0.9em;
+    }
+
+    /* Footer List */
+    .footer-section{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .footer-content{
+        padding:18px;
+    }
+    .logo-icon{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-logo img{
+        width: 35px;
+    }
+    .footer-icon .fab{
+        padding: 0 5px;
+    }
+    .footer-all-links{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5px;
+    }
+    .terms-condition{
+        justify-content: center;
+    }
+    
+    /* Footer */
+    footer p{
+        font-size: 0.8em;
+    }
+  }
