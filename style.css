@@ -55,7 +55,7 @@ header{
 
 /* Banner Section Design */
 .banner-section{
-    margin: 25px 0;
+    margin: 35px 0;
 }
 .banner-content{
     background-color: white;
@@ -98,4 +98,102 @@ header{
 .btn-signup:hover{
     color: white;
     background-color: crimson;
+}
+
+/* Pick Plan Section */
+.plan-section{
+    margin: 35px 0;
+}
+.pick-plan-content{
+    background-color: white;
+    box-shadow: 2px 3px 8px #d1d0d0;
+    border-radius: 10px;
+    padding: 0 35px 10px 35px;
+}
+.pick-plan-content p{
+    text-align: center;
+    font-size: 1.2em;
+    color: gray;
+}
+.pick-plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pick-plan h1{
+    margin-bottom: 0;
+    font-size: 2.2em;
+}
+.plan-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+    margin-top: 35px;
+    padding-bottom: 15px;
+}
+.monthly{
+    text-align: center;
+    line-height: 12px;
+    border: 3px solid gray;
+    padding: 50px 0;
+    border-radius: 8px;
+    background-image: url(img/mask/mask-1.png);
+}
+.yearly{
+    text-align: center;
+    line-height: 12px;
+    border: 3px solid gray;
+    padding: 50px 0;
+    border-radius: 8px;
+    background-image: url(img/mask/mask-2.png);
+}
+.monthly h3, .yearly h3{
+    font-size: 28px;
+    margin: 0;
+}
+.monthly h2, .yearly h2{
+    font-size: 38px;
+}
+.btn-box{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 8px 22px;
+    font-size: 0.9em;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Work Section Design */
+.work-section{
+    margin: 25px 0;
+}
+.work-content{
+    background-color: white;
+    box-shadow: 2px 3px 8px #d1d0d0;
+    border-radius: 10px;
+    padding: 0 20px 35px 20px;
+}
+.first-work{
+    background-color: white;
+    margin:20px 10px;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 2px #e2e2e2;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+.work-photo img{
+    width: 75%;
+}
+.work-detils h2{
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+.work-detils p{
+    font-size: 1.2em;
 }
