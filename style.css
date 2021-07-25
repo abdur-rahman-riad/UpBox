@@ -1,0 +1,8 @@
+/* Font Family Code---
+font-family: 'Poppins', sans-serif;
+font-family: 'Volkhov', serif; */
+
+h1{
+    color: darkmagenta;
+    font-family: 'Volkhov', serif;
+}
