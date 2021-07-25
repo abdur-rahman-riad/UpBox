@@ -85,7 +85,7 @@ header{
 }
 .btn-signup{
     border:3px solid darkblue;
-    color: black;
+    color: darkblue;
     background-color: white;
     padding: 8px 25px;
     border-radius: 50px;
@@ -97,7 +97,7 @@ header{
 }
 .btn-signup:hover{
     color: white;
-    background-color: crimson;
+    background-color: darkblue;
 }
 
 /* Pick Plan Section */
@@ -174,10 +174,11 @@ header{
     box-shadow: 2px 3px 8px #d1d0d0;
     border-radius: 10px;
     padding: 0 20px 35px 20px;
+    text-align: center;
 }
 .first-work{
     background-color: white;
-    margin:20px 10px;
+    margin:30px 10px;
     padding: 35px;
     border-radius: 10px;
     box-shadow: 1px 1px 1px 2px #e2e2e2;
@@ -196,4 +197,106 @@ header{
 }
 .work-detils p{
     font-size: 1.2em;
+}
+
+/* Social Post Section Design */
+.social-section{
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.social-post-content{
+    background-color: white;
+    box-shadow: 2px 3px 8px #d1d0d0;
+    border-radius: 10px;
+    padding: 0 35px 30px 35px;
+    text-align: center;
+}
+.social-post{
+    margin: 25px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 18px;
+}
+.post{
+    background-color: white;
+    box-shadow: 2px 3px 8px #d1d0d0;
+    border-radius: 10px;
+    padding: 10px;
+}
+.post img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+.post h3{
+    font-size: 1.2em;
+    margin-top: 0;
+    text-align: center;
+}
+
+/* Footer Section Design */
+.footer-section{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.footer-content{
+    background-color: white;
+    box-shadow: 2px 3px 8px #d1d0d0;
+    border-radius: 10px;
+    padding: 0 35px 10px 35px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+.logo-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.footer-logo img{
+    width: 40px;
+    margin: 0 8px;
+}
+.footer-icon .fab{
+    font-size: 1.8em;
+    color: darkblue;
+    margin: 0 3px;
+    transition: color 0.2s ease-in-out;
+    cursor: pointer;
+}
+.footer-icon .fab:hover{
+    color: crimson;
+}
+.footer-all-links{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+}
+.link-box ul li{
+    list-style: none;
+}
+.list-head{
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+.terms-condition{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.terms-condition p{
+    padding: 0 10px;
+    font-size: 0.8em;
+    color: darkblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Footer Design */
+footer p{
+    text-align: center;
+    color: gray;
+    font-family: 'Poppins', sans-serif;
 }
